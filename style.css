@@ -30,4 +30,48 @@ header .navbar div button {
   font-weight: 600;
   border-radius: 10px;
   border: none;
+}
+header section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+header section .inBox1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+header section .inBox1 p {
+  font-size: 30px;
+}
+header section .inBox1 h1 {
+  font-size: 50px;
+  color: rgb(0, 34, 101);
+}
+
+.iconMenu {
+  display: none;
+}
+
+@media (max-width: 510px) {
+  .iconMenu {
+    display: block;
+    width: 24px;
+  }
+  header .navbar div {
+    display: none;
+  }
+  header {
+    width: 90%;
+    margin: auto;
+  }
+  section{
+    flex-direction: column-reverse;
+    .inBox1
+    {
+      p{
+        font-size: 16px;
+      }
+    }
+  }
 }/*# sourceMappingURL=style.css.map */

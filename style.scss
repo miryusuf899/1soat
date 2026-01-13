@@ -31,4 +31,42 @@ header{
             }
         }
     }
+    section{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        .inBox1
+        {
+            display: flex;
+            flex-direction: column;
+            row-gap: 40px;
+            p{
+                font-size: 30px;
+            }
+            h1{
+                font-size: 50px;
+                color: rgba(0, 34, 101, 1);
+            }
+        }
+    }
+}
+.iconMenu
+{
+    display: none;
+}
+@media (max-width:510px)
+{
+    .iconMenu
+    {
+        display: block;
+        width: 24px;
+    }
+    header .navbar div{
+        display: none;
+    }
+    header
+    {
+        width: 90%;
+        margin: auto;
+    }
 }
