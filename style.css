@@ -124,4 +124,11 @@ header .img4 {
   section {
     flex-direction: column-reverse;
   }
+  .cards {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .img4 {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
