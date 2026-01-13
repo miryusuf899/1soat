@@ -75,6 +75,41 @@ header{
             }
         }
     }
+    .box2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        margin-top: 100px;
+        h1{
+            text-align: center;
+        }
+        .cards
+        {
+            display: flex;
+            justify-content: space-between;
+            .item{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+    
+                h1{
+                    font-size: 30px;
+                    text-align: center;
+                }
+                .img2
+                {
+                    position: absolute;
+                }
+            }
+        }
+    }
+    .img4
+    {
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
 }
 .iconMenu
 {
@@ -94,5 +129,8 @@ header{
     {
         width: 90%;
         margin: auto;
+    }
+    section{
+        flex-direction: column-reverse;
     }
 }
